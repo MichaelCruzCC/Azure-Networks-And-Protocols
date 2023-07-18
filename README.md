@@ -50,7 +50,7 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/66d3a9d0-5e70-4c81-91ae-5fc51843bf1b)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/fced4369-c12a-4d59-a14b-e705ed492558)
 
-<b> When creating the second VM be sure to select the same Resource Group as the Windows VM, the same region, and the same size allocation. For authentication type choose password and use the same login as you did for the Windows VM. The default SSH port is fine as is. Once deployed, it will then be time to observe network protocols between the two VMs.
+<b>When creating the second VM be sure to select the same Resource Group as the Windows VM, the same region, and the same size allocation. For authentication type choose password and use the same login as you did for the Windows VM. The default SSH port is fine as is. Once deployed, it will then be time to observe network protocols between the two VMs.
 
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/6eb01db6-7d2f-4daa-a8ea-c45414fedbdd)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/2629c3f6-91c7-40bc-8fb1-dcaf951aed58)
@@ -62,7 +62,7 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/87d188dd-c492-416d-8b87-87e6707a281d)
 
-<b> Select VM-01 and copy the public IP address in order to use Remote Desktop Connection to log in to the VM. Once logged in with the previously chosen credentials, open up Microsoft Edge, download, and install Wireshark. </b>
+<b>Select VM-01 and copy the public IP address in order to use Remote Desktop Connection to log in to the VM. Once logged in with the previously chosen credentials, open up Microsoft Edge, download, and install Wireshark. </b>
 
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/ca71b4a1-f2fc-46be-844d-d9d1121f8a71)
 
@@ -90,6 +90,14 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/46e4b8ce-6574-4833-b6b6-2aef681512b0)
 
+<b>With Wireshark now installed, it is possible to filter for different types of traffic. The first of which will be ICMP traffic, based on a simple ping command to our Linux VM. </b>
+
+-Within wireshark start capturing packets then filter for icmp.
+-On your actual machine, go back to portal.azure.com and copy VM-02's IP address.
+-Go back to the remote session, open Command Prompt and run "ping -t *Linux IP address*"
+-You'll note that the requests time out. This is because VM-02's firewall is blocking it.
+-Back on your actual machine, go to VM-02's networking tab and add an Inbound rule for icmp, with the priority being before any of the existing rules.
+-Within the remote session, once applied, the pings should start to succeed, rather than time out.
 
 
 
