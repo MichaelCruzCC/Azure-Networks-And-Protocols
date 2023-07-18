@@ -50,5 +50,46 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/66d3a9d0-5e70-4c81-91ae-5fc51843bf1b)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/fced4369-c12a-4d59-a14b-e705ed492558)
 
+<b> When creating the second VM be sure to select the same Resource Group as the Windows VM, the same region, and the same size allocation. For authentication type choose password and use the same login as you did for the Windows VM. The default SSH port is fine as is. Once deployed, it will then be time to observe network protocols between the two VMs.
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/6eb01db6-7d2f-4daa-a8ea-c45414fedbdd)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/2629c3f6-91c7-40bc-8fb1-dcaf951aed58)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/cf491485-2b33-4eea-befb-9b87dd28e438)
+
+<h2>Observing Network Protocols Using Wireshark</h2>
+
+<b>With the VM's created, we can now go back to portal.azure.com and see them listed in our resources.</b>
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/87d188dd-c492-416d-8b87-87e6707a281d)
+
+<b> Select VM-01 and copy the public IP address in order to use Remote Desktop Connection to log in to the VM. Once logged in with the previously chosen credentials, open up Microsoft Edge, download, and install Wireshark. </b>
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/c33a0da7-930a-4038-849f-dcdfdd4de56a)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/ca71b4a1-f2fc-46be-844d-d9d1121f8a71)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/37a72187-b319-403b-85fe-cd3cb74c5b65)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/c82f8038-a8cb-4da2-987d-2e889699ffca)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/a37debc3-0530-47a4-afe9-bceddf07fe8e)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/69d56e86-2914-486c-8204-fc3f02bd0e1f)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/a11fa5df-9d4c-4e79-8c06-842cd8dcf65c)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/b4f16222-2dff-437e-9463-d5636825d301)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/f27a9f1c-9124-49ca-b39a-c9ddd268a0f2)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/725d64ad-fa7c-4137-adb3-38363a316b77)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/79e12cbe-edc1-49d0-85c1-c86886669b4a)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/86a59277-f078-4c79-a41c-ea6e0076071d)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/ad8de4b7-10a9-4480-8432-585e772ed903)
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/46e4b8ce-6574-4833-b6b6-2aef681512b0)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
