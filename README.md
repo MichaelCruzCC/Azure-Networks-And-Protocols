@@ -92,12 +92,12 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 
 <b>With Wireshark now installed, it is possible to filter for different types of traffic. The first of which will be ICMP traffic, based on a simple ping command to our Linux VM. </b>
 
--Within wireshark start capturing packets then filter for icmp.
--On your actual machine, go back to portal.azure.com and copy VM-02's IP address.
--Go back to the remote session, open Command Prompt and run "ping -t *Linux IP address*"
--You'll note that the requests time out. This is because VM-02's firewall is blocking it.
--Back on your actual machine, go to VM-02's networking tab and add an Inbound rule for icmp, with the priority being before any of the existing rules.
--Within the remote session, once applied, the pings should start to succeed, rather than time out.
+- Within wireshark start capturing packets then filter for icmp.
+- On your actual machine, go back to portal.azure.com and copy VM-02's IP address.
+- Go back to the remote session, open Command Prompt and run "ping -t *Linux IP address*"
+- You'll note that the requests time out. This is because VM-02's firewall is blocking it.
+- Back on your actual machine, go to VM-02's networking tab and add an Inbound rule for icmp, with the priority being before any of the existing rules.
+- Within the remote session, once applied, the pings should start to succeed, rather than time out.
 
 
 
