@@ -23,3 +23,5 @@ The protocols we will be focusing on include:
 
 - Windows 10 (21H2)
 - Linux/Ubuntu Server 20.04 
+
+<h2>Creating the Virtual Machines</h2>
