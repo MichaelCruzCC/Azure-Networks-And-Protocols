@@ -26,10 +26,11 @@ The protocols we will be focusing on include:
 
 <h2>Creating the Virtual Machines</h2>
 
-Once logged in, the first step is creating a resource group. Choose the region closest to you, as we will build the Virtual Machines in the same region.
+<b>Once logged in, the first step is creating a resource group. Choose the region closest to you, as we will build the Virtual Machines in the same region.</b>
 
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/17b50e6d-5e33-4b2a-9616-079195770ffe)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/e04d31f1-58e9-4c85-841b-3e1bb9d8decb)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/5aecdc1d-ec6e-4cb1-be32-1dc54cceb971)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/63238a54-1fe4-4fdf-8e25-bc2f2174359d)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/1cc9afb5-ac13-4392-9afd-01fdf86843c5)
+
