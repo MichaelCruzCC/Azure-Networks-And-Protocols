@@ -34,3 +34,4 @@ The protocols we will be focusing on include:
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/63238a54-1fe4-4fdf-8e25-bc2f2174359d)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/1cc9afb5-ac13-4392-9afd-01fdf86843c5)
 
+<b>Now that we have a Resource Group, this allows us to create the first Virtual Machine. It should be running Windows 10 and it should be provisioned at least 2 cores and 16GBs of memory. This setting will allow the machine to be as performant as we need it to be.</b>
