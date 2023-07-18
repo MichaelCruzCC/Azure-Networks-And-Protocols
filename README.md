@@ -7,7 +7,8 @@ The protocols we will be focusing on include:
 - DHCP (Dynamic Host Configuration Protocol; UDP Ports 67 & 68)
 - ICMP (Internet Control Message Protocol; No Port #)
 - RDP (Remote Desktop Protocol; TCP Port 3389)
-<br />
+
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure Virtual Machines
