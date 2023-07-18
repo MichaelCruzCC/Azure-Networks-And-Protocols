@@ -98,7 +98,19 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 - You'll note that the requests time out. This is because VM-02's firewall is blocking it.
 - Back on your actual machine, go to VM-02's networking tab and add an Inbound rule for icmp, with the priority being before any of the existing rules.
 - Within the remote session, once applied, the pings should start to succeed, rather than time out.
+- Once successful pings have been observed, feel free to stop pinging using Ctrl + C.
 
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/1ded7253-6a09-4b52-a97f-ba9522625507)
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/4defb8c6-27fe-44b1-9425-ce253c00e6a3)
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/7a48bdfa-e2aa-4cc5-b3e0-fe77aa255924)
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/4b3ddd9d-3077-471c-90ab-2430ff859a71)
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/4b57e828-ec42-4504-841f-6f866b742c3c)
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/04bafbd2-64f3-4f7b-8403-826b376fd231)
 
 
 
