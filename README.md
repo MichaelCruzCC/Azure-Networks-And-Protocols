@@ -65,18 +65,31 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 <b> Select VM-01 and copy the public IP address in order to use Remote Desktop Connection to log in to the VM. Once logged in with the previously chosen credentials, open up Microsoft Edge, download, and install Wireshark. </b>
 
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/ca71b4a1-f2fc-46be-844d-d9d1121f8a71)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/37a72187-b319-403b-85fe-cd3cb74c5b65)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/c82f8038-a8cb-4da2-987d-2e889699ffca)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/a37debc3-0530-47a4-afe9-bceddf07fe8e)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/69d56e86-2914-486c-8204-fc3f02bd0e1f)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/a11fa5df-9d4c-4e79-8c06-842cd8dcf65c)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/b4f16222-2dff-437e-9463-d5636825d301)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/f27a9f1c-9124-49ca-b39a-c9ddd268a0f2)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/725d64ad-fa7c-4137-adb3-38363a316b77)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/79e12cbe-edc1-49d0-85c1-c86886669b4a)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/86a59277-f078-4c79-a41c-ea6e0076071d)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/ad8de4b7-10a9-4480-8432-585e772ed903)
+
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/46e4b8ce-6574-4833-b6b6-2aef681512b0)
+
 
 
 
