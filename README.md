@@ -64,7 +64,6 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 
 <b> Select VM-01 and copy the public IP address in order to use Remote Desktop Connection to log in to the VM. Once logged in with the previously chosen credentials, open up Microsoft Edge, download, and install Wireshark. </b>
 
-![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/c33a0da7-930a-4038-849f-dcdfdd4de56a)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/ca71b4a1-f2fc-46be-844d-d9d1121f8a71)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/37a72187-b319-403b-85fe-cd3cb74c5b65)
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/c82f8038-a8cb-4da2-987d-2e889699ffca)
