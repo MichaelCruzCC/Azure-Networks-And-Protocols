@@ -115,7 +115,7 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 <b> The second type of traffic to observe will be SSH, once we connect and log in to the Ubuntu VM from within the Windows VM. </b>
 
 - First, check the Azure portal for the private IP address of VM-02, be sure to copy it.
-- Within the Windows VM, set your Wireshark filter to "ssh" or "tcp port == 22" and run Windows Powershell to SSH into VM-02. 
+- Within the Windows VM, set your Wireshark filter to "ssh" or "tcp.port == 22" and run Windows Powershell to SSH into VM-02. 
 - The Powershell command is "ssh *username*@*private IP address*
 - Say Yes to continue connecting, then enter the password for VM-02. It won't show your characters being typed out.
 - Run Linux commands such as "id", "uname -a", "pwd", "ls -lasth", "touch hi.txt"
@@ -127,7 +127,35 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/063b9e77-f647-4544-b006-5d272d3e9398)
 
+<b> Now it is time to monitor DNS traffic by using the "nslookup" command. This command essentially asks the DNS server what the IP address of the inputted website is. Wireshark will show you the live traffic over the internet once you filter using "dns" or "udp.port == 53" </b>
 
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/c6c33a98-50a4-43ae-9f4e-351d05e3b1cb)
+
+<b> Finally, the last thing to observe is RDP traffic. This will spam network traffic because of our live remote desktop connection between our Physical machine and the Virtual Machine. The filter for this is "rdp" or "tcp.port == 3389".</b>
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/017d9778-2cdf-4491-9fb7-e4767fff6067)
+
+
+<h2>Cleaning Up Our Resources</h2>
+
+<b> Now that the inspection between the two VMs is done, it is a good idea not to waste precious credits on resources that we will no longer be utilizing. </b>
+- Go to portal.azure.com
+- Delete the two resource groups
+- Wait for the resources to be de-provisioned. Refresh every so often to make sure there are no more resource groups.
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/32e3cbd2-02e0-4ab5-91c9-793178bd9744)
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/5c131711-37e5-40ee-8127-56bf9f7060f0)
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/7bd557d3-f98a-473b-97c1-06536ee42aad)
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/758ef893-99d9-4f31-a955-abbbfcda6fea)
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/9a2b760d-c775-4e50-8aff-568d54a16fdb)
+
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/2dbd6e43-ed99-4686-b913-e912c783c780)
+
+<h1>Inspection Tutorial Complete</h1>
 
 
 
