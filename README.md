@@ -114,12 +114,18 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 
 <b> The second type of traffic to observe will be SSH, once we connect and log in to the Ubuntu VM from within the Windows VM. </b>
 
+- First, check the Azure portal for the private IP address of VM-02, be sure to copy it.
+- Within the Windows VM, set your Wireshark filter to "ssh" or "tcp port == 22" and run Windows Powershell to SSH into VM-02. 
+- The Powershell command is "ssh *username*@*private IP address*
+- Say Yes to continue connecting, then enter the password for VM-02. It won't show your characters being typed out.
+- Run Linux commands such as "id", "uname -a", "pwd", "ls -lasth", "touch hi.txt"
+- Run "exit" command to close the ssh connection and Ctrl + C to end the command. You can observe all the Wireshark traffic.
 
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/927c9410-c801-4208-a7d8-e9fcb9f6ef19)
 
+<b> Next is observing DHCP traffic by reissuing an IP address to our Windows VM using the command "ipconfig/renew". Remember to set the filter to dhcp.
 
-
-
-
+![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/063b9e77-f647-4544-b006-5d272d3e9398)
 
 
 
