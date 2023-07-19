@@ -112,7 +112,7 @@ After a successful deployment, be sure to hit "Create another VM" in order to cr
 
 ![image](https://github.com/MichaelCruzCC/Azure-Networks-And-Protocols/assets/138819301/04bafbd2-64f3-4f7b-8403-826b376fd231)
 
-
+<b> The second type of traffic to observe will be SSH, once we connect and log in to the Ubuntu VM from within the Windows VM. </b>
 
 
 
